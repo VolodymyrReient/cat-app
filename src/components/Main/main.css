@@ -1,0 +1,6 @@
+.content {
+    width: 99%;
+    margin: 0 auto;
+    min-height: calc(100vh - 70px - 64px);
+    padding-top: 1.5rem;
+}

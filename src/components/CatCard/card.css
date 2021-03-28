@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    border: chocolate 1px solid;
+    padding-bottom: 5px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50%;
+}
+.img img {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+}
+.name {
+    text-align: center;
+    background: chocolate;
+    color: #fff;
+}
+.description {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    height: 162px;
+}
+.description p {
+    margin-bottom: 0;
+}
+.button {
+    display: block;
+    margin-top: auto;
+}
+.btn {
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width: 576px) {
+    .description {
+        height: auto;
+    }
+}
