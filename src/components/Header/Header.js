@@ -7,7 +7,7 @@ function Header() {
                 </a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li>
-                        <a href="!#">
+                        <a href="https://github.com/VolodymyrReient/cat-app">
                             Repo
                         </a>
                     </li>
