@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px;
+    /* height: 500px; */
+    height: 100%;
     border: chocolate 1px solid;
     padding-bottom: 5px;
 }
@@ -42,5 +43,8 @@
 @media (max-width: 576px) {
     .description {
         height: auto;
+    }
+    .wrapper {
+        height: 100%;
     }
 }
